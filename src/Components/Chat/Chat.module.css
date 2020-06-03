@@ -65,3 +65,39 @@
   background-color: white;
   box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.3);
 }
+
+.received1 {
+  display: inline-block;
+  width: 85%;
+  height: 85px;
+  position: absolute;
+  left: 40px;
+  top: 150px;
+}
+.profilePic1 {
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  position: absolute;
+}
+.receivedMsg {
+  display: inline-block;
+  height: ;
+  width: ;
+  position: absolute;
+  left: 50px;
+  color: white;
+  background-color: #3592f3;
+  padding: 18px;
+  border-radius: 0px 10px 10px 10px;
+}
+.threeDots {
+  position: absolute;
+  left: 350px;
+  top: 12px;
+  letter-spacing: 2px;
+
+  font-weight: bold;
+  color: #b4bccb;
+}

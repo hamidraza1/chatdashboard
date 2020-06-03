@@ -4,7 +4,7 @@ import classes from "./ChatBlock.module.css";
 class ChatBlock extends Component {
   render() {
     return (
-      <div className={classes.chatBlock}>
+      <div className={classes.chatBlock} onClick={this.props.chatHandler}>
         <img
           className={classes.profilePic}
           src={

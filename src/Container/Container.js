@@ -10,7 +10,6 @@ class Container extends Component {
       <div className={classes.container}>
         <TopMenu />
         <AllChats />
-        <Chat />
       </div>
     );
   }
