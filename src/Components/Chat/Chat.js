@@ -19,6 +19,7 @@ class Chat extends Component {
           <div className={classes.userFile}>§</div>
           <div className={classes.userMore}>:</div>
         </div>
+
         <div className={classes.received1}>
           <img
             className={classes.profilePic1}
@@ -26,10 +27,12 @@ class Chat extends Component {
               "https://widgetwhats.com/app/uploads/2019/11/free-profile-photo-whatsapp-4.png"
             }
           />
-          <div className={classes.receivedMsg}>
-            Hello,how are you and whats up?
+          <div className={classes.a1}>
+            <div className={classes.receivedMsg1}>
+              Hello how are you, I was expecting
+            </div>
+            <div className={classes.threeDots1}>...</div>
           </div>
-          <div className={classes.threeDots}>...</div>
         </div>
       </div>
     );
