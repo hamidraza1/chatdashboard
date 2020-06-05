@@ -16,7 +16,7 @@ class TopMenu extends Component {
             "https://widgetwhats.com/app/uploads/2019/11/free-profile-photo-whatsapp-4.png"
           }
         />
-        <div className={classes.profileName}>Hamid Raza</div>
+        <div className={classes.profileName}>Harry Potter</div>
         <div className={classes.profileOptionbtn}>></div>
 
         <div className={classes.homeOption}>

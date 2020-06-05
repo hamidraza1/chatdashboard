@@ -7,6 +7,10 @@
   background-color: rgb(252, 252, 252);
   border-radius: 6px;
   box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+.chatBlock:hover {
+  background-color: rgb(240, 233, 233);
 }
 .profilePic {
   position: relative;
@@ -35,13 +39,12 @@
   color: #0d1c2e;
 }
 .userWrites {
-  display: inline-block;
+  display: block;
   font-family: TT Norms;
   font-size: 16px;
   color: #2a8bf2;
-  position: relative;
+  position: absolute;
   top: 17px;
-  left: -80px;
 }
 .userOnlineStatus {
   display: inline-block;
@@ -87,6 +90,6 @@
   color: white;
   position: relative;
   left: 63px;
-  top: -20px;
+  top: 30px;
   font-weight: bold;
 }
